@@ -15,7 +15,7 @@ MCP is an open protocol that standardizes how applications provide context to LL
 * Other platforms that support standart c++...
 
 ## Dependent technology
-[jsoncpp](https://github.com/open-source-parsers/jsoncpp)
+[jsoncpp 1.9.5](https://github.com/open-source-parsers/jsoncpp)
 
 ## MCP protocol version
 [MCP Specification 2024-11-05](https://modelcontextprotocol.io/specification/2024-11-05/index)
