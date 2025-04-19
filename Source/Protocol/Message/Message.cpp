@@ -2,5 +2,5 @@
 
 namespace MCP
 {
-	std::atomic_ulong Message::s_ulIdBase = 0;
+	std::atomic_ulong Message::s_ulIdBase{ 0 };
 }
