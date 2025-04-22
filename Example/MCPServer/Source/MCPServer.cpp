@@ -15,6 +15,11 @@ int LaunchEchoServer()
     {
         // 2. Start the Server.
         iErrCode = server.Start();
+        if (MCP::ERRNO_OK == iErrCode)
+        {
+            // 3. Stop the Server.
+            server.Stop();
+        }
     }
 
     return iErrCode;
