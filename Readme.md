@@ -14,7 +14,7 @@ MCP is an open protocol that standardizes how applications provide context to LL
 * Android
 * Other platforms that support standart c++...
 
-## Dependent technology
+## Dependencies
 [jsoncpp 1.9.5](https://github.com/open-source-parsers/jsoncpp)
 
 ## MCP protocol version
@@ -51,3 +51,6 @@ MCP is an open protocol that standardizes how applications provide context to LL
 
 ## LICENSE
 TinyMCP is licensed under the MIT License - see the LICENSE file for details.
+
+## More
+Please check the [wiki](https://github.com/Qihoo360/TinyMCP/wiki) for more information.
