@@ -7,12 +7,15 @@ TinyMCP is a lightweight C++ SDK for implementing the MCP Server.
 MCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.
 > [Reference for details](https://modelcontextprotocol.io/introduction)
 
-## Supported system platforms
+## TinyMCP supported system platforms
 * Windows
 * Linux
 * MacOS
 * Android
 * Other platforms that support standart c++...
+
+## Usage Guide
+Please check the [wiki](https://github.com/Qihoo360/TinyMCP/wiki) for more information.
 
 ## Dependencies
 [jsoncpp 1.9.5](https://github.com/open-source-parsers/jsoncpp)
@@ -51,6 +54,3 @@ MCP is an open protocol that standardizes how applications provide context to LL
 
 ## LICENSE
 TinyMCP is licensed under the MIT License - see the LICENSE file for details.
-
-## More
-Please check the [wiki](https://github.com/Qihoo360/TinyMCP/wiki) for more information.
