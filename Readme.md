@@ -52,5 +52,23 @@ Please check the [wiki](https://github.com/Qihoo360/TinyMCP/wiki) for more infor
 | Completion | A standardized way for servers to offer argument autocompletion suggestions for prompts and resource URIs. | Not yet |
 | Logging | A standardized way for servers to send structured log messages to clients. | Not yet |
 
+## CLINE configure
+```
+{
+  "mcpServers": {
+    "echo_server": {
+      "autoApprove": [
+        "*"
+      ],
+      "disabled": true,
+      "timeout": 30,
+      "command": "C:\\Users\\wf\\Documents\\Cline\\MCP\\TinyMCP\\Example\\MCPServer\\Build\\Windows\\Release\\MCPServer.exe",
+      "env": {},
+      "transportType": "stdio"
+    }
+  }
+}
+```
+
 ## LICENSE
 TinyMCP is licensed under the MIT License - see the LICENSE file for details.
